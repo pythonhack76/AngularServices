@@ -1,0 +1,10 @@
+<p>{{servizio.nome | uppercase }} Dettaglio </p>
+<div><span>id: </span>{{servizio.id}}</div>
+<div><span>nome: {{servizio.nome}} </span></div>
+
+<div>
+
+<label for="nome">Nme Servizio:</label>
+<input id="nome" [(ngModel)]="servizio.nome" placeholder="nome servizio">
+
+</div>
